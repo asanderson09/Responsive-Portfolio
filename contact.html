@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="head">
+        <div class="container">
+            <a href="index.html" id="logo">Anthony A.</a>
+            <nav>
+                <a id="about" href="index.html">About</a>
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <a id="contact" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section id="main" class="main-section">
+            <h1 id="aboutme">Contact</h1>
+
+            <form id="contact-form">
+                <label for="fullname">Name</label>
+                <br>
+                <input type="text" name="fullname" id="fullname" required placeholder="John Swift">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" id="email" required placeholder="example@gmail.com">
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" name="message" minlength="10" maxlength="300" rows="10" cols="30"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
+
+</html>
